@@ -1,0 +1,4 @@
+body{
+    margin: auto;
+    background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
