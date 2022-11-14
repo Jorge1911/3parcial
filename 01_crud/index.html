@@ -80,27 +80,30 @@
 </div>
 <!--edit modal-->
 
-<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModal" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="bi bi-pencil-square"></i>EDITAR</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel"> <i class="bi bi-plus-circle m-2"></i>EDITAR POSTS</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <label for="exampleFormControlInput1" class="form-label">TITLE</label>
-              <input type="text" class="form-control" id="etitle" placeholder="titulo">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">BODY</label>
-              <textarea class="form-control" id="ebody" rows="3"></textarea>
-              <input type="hidden" id="eid" value="0">
-              <input type="hidden" id="euserid" value="0">
-            </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">TITLE</label>
+          <input type="text" class="form-control" id="etitle" placeholder="titulo">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">BODY</label>
+          <textarea class="form-control" id="ebody" rows="3"></textarea>
+          <input type="hidden" id="eid" value="0">
+          <input type="hidden" id="euserid" value="0">
+        </div>
+        ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-trash m-2"></i>CANCELAR</button>
-        <button type="button" class="btn btn-success" onclick="guardarPost()"><i class="bi bi-save m-2"></i>EDITAR</button>
+        <button type="button" class="btn btn-success" onclick="guardarPost()">Guardar</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
       </div>
     </div>
   </div>
