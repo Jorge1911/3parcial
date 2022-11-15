@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgb(78, 206, 99) 0%, rgb(206, 245, 116) 100%);
+}
+h1{
+font-size: 40px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+}
